@@ -54,7 +54,7 @@
 * **Version of the modeling software**: Keras: 3.10.0
 * **Hyperparameters or other settings of your model**: 
 ```
-#data augmentation
+#Augmenting the Data to improve model performance
 datagen = keras.preprocessing.image.ImageDataGenerator(
     rotation_range=10,
     width_shift_range=0.1,
@@ -64,8 +64,7 @@ datagen = keras.preprocessing.image.ImageDataGenerator(
 )
 datagen.fit(train_images)
 
-
-#model hyperparameters
+#Setting model hyperparameters
 inputs = keras.Input(shape=(28, 28, 1))
 x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(inputs)
 x = layers.MaxPooling2D(pool_size=2)(x)
@@ -76,18 +75,14 @@ x = layers.Flatten()(x)
 outputs = layers.Dense(10, activation="softmax")(x)
 model = keras.Model(inputs=inputs, outputs=outputs)
 
-
-#model compilation
+#Compiling the model
 model.compile(optimizer="rmsprop",
     loss="sparse_categorical_crossentropy",
     metrics=["accuracy"])
 
-
-#model training
+#Fitting the model
 model.fit(datagen.flow(train_images, train_labels, batch_size=64),
-          validation_data=(val_images, val_labels),
           epochs=10)
-
 ```
 
 ### Quantitative Analysis
