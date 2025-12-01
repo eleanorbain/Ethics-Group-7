@@ -92,6 +92,7 @@ model.fit(datagen.flow(train_images, train_labels, batch_size=64),
 | Train Accuracy | Validation Accuracy | Test Accuracy |
 | ------ | ------- | -------- |
 | 0.9883 | 0.9942  | 0.9921 |
+* *Test accuracy can be found [here](https://www.kaggle.com/competitions/digit-recognizer/leaderboard) by searching up the name 'Eleanor Bain'*
 
 AUC Summary:
 * Macro AUC: 1.00
