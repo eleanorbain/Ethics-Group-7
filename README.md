@@ -10,9 +10,9 @@
 * **License**: MIT
 * **Model implementation code**: [DNSC_3288_Group_7_Number_Recognizer.ipynb](https://github.com/eleanorbain/Ethics-Group-7/blob/main/DNSC_3288_Group_7_Number_Recognizer.ipynb)
 * **Intended Use**
- * **Primary intended use**: This model is designed to classify written arabic numerals given their binary pixels in a 28x28 grid.
- * **Primary intended users**: Students in GWU DNSC 3288 and other educational users.
- * **Out-of-scope use cases**: Any non-educational use is out of scope.
+  * **Primary intended use**: This model is designed to classify written arabic numerals given their binary pixels in a 28x28 grid.
+  * **Primary intended users**: Students in GWU DNSC 3288 and other educational users.
+  * **Out-of-scope use cases**: Any non-educational use is out of scope.
 
 ### Training Data
 
