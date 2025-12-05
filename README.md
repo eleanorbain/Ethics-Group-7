@@ -15,7 +15,12 @@
   * **Out-of-scope use cases**: Any non-educational use is out of scope.
 
 ### Training Data
-
+* **Source of training data**: Kaggle: [https://www.kaggle.com/competitions/digit-recognizer/overview](https://www.kaggle.com/competitions/digit-recognizer/data)
+* **How training data was divided into training and validation data**: 80% training, 20% validation
+* **Number of rows in training and validation data**:
+  * Total rows: 42,000
+  * Training rows: 33,600
+  * Validation rows: 8,400
 * Data dictionary: 
 
 | Name | Modeling Role | Measurement Level| Description|
@@ -31,13 +36,6 @@
 | **pixel781** | Feature | int (ratio) | Pixel intensity (0-255) |
 | **pixel782** | Feature | int (ratio) | Pixel intensity (0-255) |
 | **pixel783** | Feature | int (ratio) | Pixel intensity (0-255) |
-
-* **Source of training data**: Kaggle: [https://www.kaggle.com/competitions/digit-recognizer/overview](https://www.kaggle.com/competitions/digit-recognizer/data)
-* **How training data was divided into training and validation data**: 80% training, 20% validation
-* **Number of rows in training and validation data**:
-  * Total rows: 42,000
-  * Training rows: 33,600
-  * Validation rows: 8,400
  
 ### Test Data
 * **Source of test data**: Kaggle: [https://www.kaggle.com/competitions/digit-recognizer/overview](https://www.kaggle.com/competitions/digit-recognizer/data)
