@@ -5,7 +5,7 @@
   * Ivana Edward, `ivana.edward@gwmail.gwu.edu`
   * Kareena Singh, `ksingh67@gwu.edu`
   * Melody Vadnais, `melodyv@gwu.edu`
-* **Model date**: December, 2025
+* **Model date**: December 5, 2025
 * **Model version**: 1.0
 * **License**: MIT
 * **Model implementation code**: [DNSC_3288_Group_7_Number_Recognizer.ipynb](https://github.com/eleanorbain/Ethics-Group-7/blob/main/DNSC_3288_Group_7_Number_Recognizer.ipynb)
