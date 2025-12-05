@@ -1,4 +1,4 @@
-# Ethics-Group-7 Model Card
+# DNSC 3288 - Group-7 Model Card
 ### Basic Information
 * **Person or organization developing model**:
   * Eleanor Bain, `eleanor.bain@gwmail.gwu.edu`
@@ -114,3 +114,14 @@ AUC Summary:
 ![Confusion Matrix](confusion_matrix.png)
 
 Figure 1. Confusion matrix for predicted vs. true classes. 
+
+### Ethical Considerations
+* **Potential Negative Impacts of Use:**
+  * Model may be used for nefarious purposes such as unauthorized authorization or fraud processes.
+  * Model may be used out of scope in high-risk scenarios and cause detriment to clients or other relevant parties when it predicts incorrectly.
+* **Potential Uncertainties of Impact:**
+  * Model may struggle to correctly understand handwritings with regional difference from the United States (the dataset’s origin) and have a worse validity.
+  * Model may perform worse in untested environments, such as ones with excess or little light.
+* **Unexpected Results:**
+  * Model may perform slightly better or worse than our reported accuracy when run in a new environment because we failed to successfully include a seed that would make the model reproducible.
+  * Model produced an AUC metric of exactly 1.00 which implies that it could be overfit to the given data.
